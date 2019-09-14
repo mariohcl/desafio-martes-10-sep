@@ -1,0 +1,59 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+
+  .wrap-main{
+    margin-top: 5%;
+
+    h1.title{
+      margin: 40px 0 20px;
+      color: grey;
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+  }
+  a{
+    color: white;
+
+    &:hover{
+      background: none;
+      color: red;
+    }
+    &:visited{
+      color: white;
+    }
+  }
+  table{
+    a{
+
+      &:visited{
+        color: white;
+      }
+    }
+  }
+  .info-cat{
+    font-size: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: grey;
+
+    span{
+      color: #28d428;
+      font-weight: bold;
+      text-decoration: underline;
+
+    }
+  }
+  #notice{
+    font-size: 1.3em;
+    margin: 16px 0;
+    color: #13c724;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .table{
+    tr{
+      td{
+        font-size: 0.9em;
+      }
+    }
+  }
+
+}
